@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoodPrintdd - Hochwertige Druckdienstleistungen</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <!-- Hier kommt dein ganzer Body-Inhalt aus dem ursprünglichen HTML (ab <header> bis Modal) rein -->
+         <script src="JavaScript/main.js"></script>
+         
+    <body>
+        <header>
+            <div class="container">
+                <nav>
+                    <div class="logo" id="logoBtn">GoodPrintdd</div>
+                    <ul class="nav-links">
+                        <li><a href="#services" class="nav-link">Leistungen</a></li>
+                        <li><a href="#gallery" class="nav-link">Inspirationen</a></li>
+                        <li><a href="#faq" class="nav-link">FAQ</a></li>
+                        <li><a href="#contact" class="nav-link">Kontakt</a></li>
+                        <li><a href="#impressum" class="nav-link">Impressum</a></li>
+                    </ul>
+                    <button class="mobile-menu-btn">☰</button>
+                </nav>
+            </div>
+        </header>
+        
+        <div class="mobile-menu">
+            <button class="close-menu">✕</button>
+            <ul class="nav-links">
+                <li><a href="#services" class="nav-link mobile">Leistungen</a></li>
+                <li><a href="#gallery" class="nav-link mobile">Inspirationen</a></li>
+                <li><a href="#faq" class="nav-link mobile">FAQ</a></li>
+                <li><a href="#contact" class="nav-link mobile">Kontakt</a></li>
+                <li><a href="#impressum" class="nav-link mobile">Impressum</a></li>
+            </ul>
+        </div>
+    
+        <section class="hero">
+            <div class="container">
+                <h1>Hochwertige Drucklösungen für Ihr Unternehmen</h1>
+                <p>Professioneller Druck in höchster Qualität. Wir bringen Ihre Ideen auf Papier und sorgen für einen bleibenden Eindruck.</p>
+                <a href="#contact" class="btn" id="heroBtn">Kontakt aufnehmen</a>
+            </div>
+        </section>
+    
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-title">Unsere Leistungen</h2>
+                <div class="service-grid">
+                    <div class="service-item" data-service="digitaldruck">
+                        <div class="service-image">
+                            <img src="/api/placeholder/300/200" alt="Digitaldruck">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Digitaldruck</h3>
+                            <p>Präziser Digitaldruck für kleine bis mittlere Auflagen. Ideal für Broschüren, Flyer und Visitenkarten mit schnellen Produktionszeiten und flexiblen Anpassungsmöglichkeiten.</p>
+                        </div>
+                    </div>
+                    <div class="service-item" data-service="grossformat">
+                        <div class="service-image">
+                            <img src="/api/placeholder/300/200" alt="Großformatdruck">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Großformatdruck</h3>
+                            <p>Beeindruckende Banner, Plakate und Poster in verschiedensten Größen für maximale Aufmerksamkeit. Perfekt für Messen, Events und Außenwerbung mit lebendigen Farben.</p>
+                        </div>
+                    </div>
+                    <div class="service-item" data-service="veredelung">
+                        <div class="service-image">
+                            <img src="/api/placeholder/300/200" alt="Spezialveredelung">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Spezialveredelung</h3>
+                            <p>Hochwertige Veredelungen wie Prägung, Heißfolienprägung und UV-Lack für besondere Akzente. Verleihen Sie Ihren Druckprodukten eine edle Optik und haptische Qualität.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <h2 class="section-title">Unsere Arbeiten & Inspirationen</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item" data-img="/api/placeholder/250/250">
+                        <img src="/Bilder/Artwork.png" alt="Projektbeispiel 1">
+                        <div class="gallery-overlay">
+                            <h3>Ukiyo-e Art</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-img="/api/placeholder/250/250">
+                        <img src="/Bilder/Lotus.png" alt="Projektbeispiel 2">
+                        <div class="gallery-overlay">
+                            <h3>Hasu - Lotus</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-img="/api/placeholder/250/250">
+                        <img src="/Bilder/Bamboo.png" alt="Projektbeispiel 3">
+                        <div class="gallery-overlay">
+                            <h3>Bambus</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-img="/api/placeholder/250/250">
+                        <img src="/Bilder/BirdaufAST.png" alt="Projektbeispiel 4">
+                        <div class="gallery-overlay">
+                            <h3>Kachō-e</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-img="/api/placeholder/250/250">
+                        <img src="/Bilder/CatinKimono.png" alt="Projektbeispiel 5">
+                        <div class="gallery-overlay">
+                            <h3>Cats Suggested as the Fifty-three Stations of the Tōkaidō</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-img="/api/placeholder/250/250">
+                        <img src="/Bilder/FelsenadnWater.png" alt="Projektbeispiel 6">
+                        <div class="gallery-overlay">
+                            <h3>Shin-Hanga</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="faq" class="faq">
+            <div class="container">
+                <h2 class="section-title">Häufig gestellte Fragen</h2>
+                <div class="faq-items">
+                    <div class="faq-item">
+                        <div class="faq-question">Wie lange dauert die Produktion meiner Druckaufträge?</div>
+                        <div class="faq-answer">
+                            <p>Die Produktionszeit hängt von verschiedenen Faktoren ab, wie Art des Drucks, Auflage und Veredelungen. In der Regel beträgt die Lieferzeit für Standardprodukte 3-5 Werktage nach Druckfreigabe. Express-Optionen sind auf Anfrage verfügbar.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">Welche Dateiformate werden für den Druck akzeptiert?</div>
+                        <div class="faq-answer">
+                            <p>Wir akzeptieren druckfertige PDF-Dateien mit einer Auflösung von mindestens 300 dpi. Alternativ können Sie auch Dateien in den Formaten AI, EPS, PSD, INDD und IDML einreichen. Wichtig ist eine 3mm Beschnittzugabe an allen Seiten.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">Kann ich vor dem Druck ein Muster erhalten?</div>
+                        <div class="faq-answer">
+                            <p>Ja, wir bieten die Möglichkeit eines digitalen Proofs oder eines physischen Andrucks gegen eine geringe Gebühr an. Bei größeren Auflagen empfehlen wir einen Andruck, um Farben und Material vorab zu prüfen.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">Welche Zahlungsmethoden werden angeboten?</div>
+                        <div class="faq-answer">
+                            <p>Wir akzeptieren Banküberweisungen, PayPal sowie Kredit- und EC-Karten. Für Bestandskunden bieten wir nach Prüfung auch Zahlung auf Rechnung an. Bei Neukunden erfolgt die Lieferung nach Zahlungseingang.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">Bieten Sie auch Designdienstleistungen an?</div>
+                        <div class="faq-answer">
+                            <p>Ja, unser erfahrenes Designteam unterstützt Sie gerne bei der Gestaltung Ihrer Druckprodukte. Von einfachen Anpassungen bis hin zu kompletten Designkonzepten bieten wir maßgeschneiderte Lösungen zu fairen Preisen.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Kontakt</h2>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h3>Nehmen Sie Kontakt mit uns auf</h3>
+                        <p>GoodPrintdd GmbH<br>
+                        Musterstraße 123<br>
+                        12345 Musterstadt</p>
+                        <p>Tel: +49 123 456789<br>
+                        E-Mail: info@GoodPrintdd.de</p>
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook" class="social-link">Facebook</a>
+                            <a href="#" aria-label="Instagram" class="social-link">Instagram</a>
+                            <a href="#" aria-label="LinkedIn" class="social-link">LinkedIn</a>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <div class="form-feedback form-success">
+                            Vielen Dank für Ihre Nachricht! Wir werden uns umgehend bei Ihnen melden.
+                        </div>
+                        <div class="form-feedback form-error">
+                            Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder kontaktieren Sie uns telefonisch.
+                        </div>
+                        <form id="contactForm">
+                            <input type="text" placeholder="Name" required id="nameInput">
+                            <input type="email" placeholder="E-Mail" required id="emailInput">
+                            <input type="text" placeholder="Betreff" id="subjectInput">
+                            <textarea placeholder="Ihre Nachricht" id="messageInput" required></textarea>
+                            <button type="submit" class="btn" id="submitBtn">Nachricht senden</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="impressum" class="impressum">
+            <div class="container">
+                <h2 class="section-title">Impressum</h2>
+                <div class="impressum-content">
+                    <h3>PrintMaster GmbH</h3>
+                    <p>Musterstraße 123<br>
+                    12345 Musterstadt<br>
+                    Deutschland</p>
+                    
+                    <h4>Vertreten durch:</h4>
+                    <p>Max Mustermann, Geschäftsführer</p>
+                    
+                    <h4>Kontakt:</h4>
+                    <p>Telefon: +49 123 456789<br>
+                    E-Mail: info@printmaster.de</p>
+                    
+                    <h4>Registereintrag:</h4>
+                    <p>Eintragung im Handelsregister.<br>
+                    Registergericht: Amtsgericht Musterstadt<br>
+                    Registernummer: HRB 12345</p>
+                    
+                    <h4>Umsatzsteuer-ID:</h4>
+                    <p>Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz: DE 123456789</p>
+                    
+                    <h4>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</h4>
+                    <p>Max Mustermann<br>
+                    Musterstraße 123<br>
+                    12345 Musterstadt</p>
+                </div>
+            </div>
+        </section>
+    
+        <div class="scroll-top">↑</div>
+    
+        <div class="modal" id="imageModal">
+            <button class="modal-close">✕</button>
+            <div class="modal-content">
+                <img src="" alt="Vergrößertes Bild" id="modalImage">
+            </div>
+</body>
+</html>
